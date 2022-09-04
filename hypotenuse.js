@@ -2,13 +2,20 @@ const sides = document.querySelectorAll(".side-input");
 const hypoBtn = document.querySelector("#hyp-btn");
 const outputEle = document.querySelector("#output");
 
-function calcHyp() {
-  const a = Number(sides[0].value);
-  const b = Number(sides[1].value);
-
+function calcHyp(a, b) {
   const c = Math.sqrt(a * a + b * b);
-
   outputEle.innerText = "The hypotenuse is " + c;
 }
 
-hypoBtn.addEventListener("click", calcHyp);
+function btnClick() {
+  const a = Number(sides[0].value);
+  const b = Number(sides[1].value);
+
+  if (a > 0 && b > 0) {
+    calcHyp(a, b);
+  } else {
+    outputEle.innerText = "Please provide the correct input";
+  }
+}
+
+hypoBtn.addEventListener("click", btnClick);
