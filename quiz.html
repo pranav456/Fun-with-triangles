@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quiz.css" />
     <title>Triangle Quiz</title>
   </head>
   <body>
-    <nav>
-      <a href="istriangle.html">Is Triangle?</a>
-      <a href="quiz.html">Quiz</a>
-      <a href="hypotenuse.html">Hypotenuse</a>
-      <a href="area.html">Area</a>
+    <nav class="navigation container">
+      <a class="link" href="istriangle.html">Is Triangle?</a>
+      <a class="item-active link" href="quiz.html">Quiz</a>
+      <a class="link" href="hypotenuse.html">Hypotenuse</a>
+      <a class="link" href="area.html">Area</a>
     </nav>
-    <h1>Triangle Quiz</h1>
-    <form class="quiz-form">
+    <h1 class="heading">Triangle Quiz</h1>
+    <form class="container quiz-form">
       <div class="question-container">
         <p>
           What is the third angle for the triangle where angle1 = 45° and angle2
@@ -35,6 +36,44 @@
         <label
           ><input type="radio" name="question2" value="right angled" /> right
           angled</label
+        >
+      </div>
+
+      <div class="question-container">
+        <p>A triangle can have</p>
+        <label
+          ><input type="radio" name="question3" value="one right angle" /> one
+          right angle</label
+        >
+        <label
+          ><input type="radio" name="question3" value="two right angles" /> two
+          right angles</label
+        >
+      </div>
+      <div class="question-container">
+        <p>Which of the following can form a right angled triangle?</p>
+        <label
+          ><input type="radio" name="question4" value="14,15,26" />
+          14,15,26</label
+        >
+        <label
+          ><input type="radio" name="question4" value="12,16,20" />
+          12,16,20</label
+        >
+      </div>
+      <div class="question-container">
+        <p>A triangle that has at least two sides of equal length is called?</p>
+        <label
+          ><input type="radio" name="question5" value="scalene" />
+          scalene</label
+        >
+        <label
+          ><input type="radio" name="question5" value="isoceles" />
+          isoceles</label
+        >
+        <label
+          ><input type="radio" name="question5" value="equilateral" />
+          equilateral angled</label
         >
       </div>
     </form>

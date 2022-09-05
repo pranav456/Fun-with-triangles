@@ -3,7 +3,7 @@ const hypoBtn = document.querySelector("#hyp-btn");
 const outputEle = document.querySelector("#output");
 
 function calcHyp(a, b) {
-  const c = Math.sqrt(a * a + b * b);
+  const c = Math.sqrt(a * a + b * b).toFixed(2);
   outputEle.innerText = "The hypotenuse is " + c;
 }
 
@@ -14,7 +14,7 @@ function btnClick() {
   if (a > 0 && b > 0) {
     calcHyp(a, b);
   } else {
-    outputEle.innerText = "Please provide the correct input";
+    outputEle.innerText = "Please provide correct input";
   }
 }
 

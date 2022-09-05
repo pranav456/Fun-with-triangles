@@ -3,8 +3,8 @@ const areaBtn = document.querySelector("#area-btn");
 const outputEle = document.querySelector("#output");
 
 function calcArea(b, h) {
-  const area = (b * h) / 2;
-  outputEle.innerText = "area is " + area;
+  const area = ((b * h) / 2).toFixed(2);
+  outputEle.innerText = "Area is " + area;
 }
 
 function btnClick() {

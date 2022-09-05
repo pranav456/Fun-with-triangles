@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  background-color: brown;
+}
+
+.container {
+  padding: 0rem 1rem;
+}
+
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.item-active {
+  border-bottom: 2px solid;
+  font-weight: bold;
+}
+
+.navigation {
+  background-color: burlywood;
+  color: rgb(153, 47, 47);
+  padding: 1rem;
+  /* border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem; */
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: rgb(156, 50, 50);
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.input-container {
+  margin: 1rem;
+  margin-left: 32rem;
+}
+
+.input-container input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 40%;
+  margin: 0.5rem 1rem 1rem 0;
+}
+
+#area-btn {
+  padding: 0.5rem;
+  background: burlywood;
+  color: var(--text-color);
+  border: 1px solid burlywood;
+  border-radius: 0.25rem;
+  width: 26%;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin-left: 32rem;
+  margin-bottom: 1rem;
+}
+
+#output {
+  text-align: center;
+  font-weight: bold;
+}

@@ -13,9 +13,10 @@ function isTriangle() {
 
   const sumOfAngles = calcSumOfAngles(angle1, angle2, angle3);
   if (sumOfAngles === 180) {
-    outputElement.innerHTML = "It's a triangle";
-  } else if (sumOfAngles < 180) {
-    outputElement.innerHTML = "It's not a triangle";
+    outputElement.innerHTML =
+      "It's a triangle. Sum of all the 3 sides equals 180°";
+  } else if (sumOfAngles < 180 || sumOfAngles > 180) {
+    outputElement.innerHTML = "Sum of all the angles do not form a triangle";
   } else {
     outputElement.innerHTML = "Please provide correct input";
   }
