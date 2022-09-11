@@ -4,6 +4,13 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0px;
   background-color: brown;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -50,40 +57,49 @@ body {
   margin-bottom: 2rem;
 }
 
+.quiz-main {
+  margin: 2rem auto;
+  width: 90%;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
 .quiz-form {
-  margin: auto;
+  display: block;
 }
 
 .container {
   margin: auto;
 }
 
+main h1 {
+  margin: 1rem;
+}
+
 .question-container {
-  padding: 2rem;
-  border: 2px solid burlywood;
-  border-radius: 0.5rem;
-  margin: 1rem 0;
-  text-align: center;
-  width: 50%;
-  margin-left: 18rem;
+  width: 85%;
+  margin: 1rem auto;
+  font-size: larger;
+  padding: 1rem 0;
 }
 div {
   display: block;
 }
 
 #submit-answer-btn {
-  padding: 0.5rem;
   background: burlywood;
-  color: white;
-  border: 1px solid burlywood;
-  border-radius: 0.25rem;
-  width: 54%;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-  margin-left: 19rem;
-  margin-right: 3rem;
-  margin-bottom: 1rem;
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: 1rem auto;
+  display: block;
 }
 
 #output {

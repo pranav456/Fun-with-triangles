@@ -16,20 +16,25 @@
       <a class="link" href="area.html">Area</a>
     </nav>
     <h1 class="heading">Is triangle?</h1>
-    <div class="input-container">
-      <label style="font-weight: bold" for="angle1">angle1</label>
-      <input type="number" class="angle-input" />
-    </div>
-    <div class="input-container">
-      <label style="font-weight: bold" for="angle2">angle2</label>
-      <input type="number" class="angle-input" />
-    </div>
-    <div class="input-container">
-      <label style="font-weight: bold" for="angle3">angle3</label>
-      <input type="number" class="angle-input" />
-    </div>
-    <button id="is-triangle-btn">Is Triangle?</button>
-    <div id="output"></div>
+    <main>
+      <label class="input-label" for="angle1">
+        <p>angle1(in deg)</p>
+      </label>
+      <input type="number" class="input-text angle-input" />
+
+      <label class="input-label" for="angle2">
+        <p>angle2(in deg)</p>
+      </label>
+      <input type="number" class="input-text angle-input" />
+
+      <label class="input-label" for="angle3">
+        <p>angle3(in deg)</p>
+      </label>
+      <input type="number" class="input-text angle-input" />
+
+      <button id="is-triangle-btn">Is Triangle?</button>
+      <div id="output"></div>
+    </main>
     <script src="./istriangle.js"></script>
   </body>
 </html>

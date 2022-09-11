@@ -4,6 +4,42 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0px;
   background-color: brown;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 0 0 7rem;
+}
+
+main h1 {
+  margin: 1rem;
+}
+.input-label {
+  font-size: larger;
+  color: burlywood;
+  width: 256px;
+}
+
+.input-label p {
+  font-size: larger;
+  margin: 0.5rem;
+}
+
+.input-text {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid burlywood;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
 }
 
 .container {
@@ -63,17 +99,16 @@ body {
 }
 
 #is-triangle-btn {
-  padding: 0.5rem;
   background: burlywood;
-  color: var(--text-color);
-  border: 1px solid burlywood;
-  border-radius: 0.25rem;
-  width: 27.5%;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-  margin-left: 32.5rem;
-  margin-bottom: 1rem;
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: 1rem auto;
+  display: block;
 }
 
 #output {
