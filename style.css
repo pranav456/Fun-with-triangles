@@ -14,7 +14,6 @@ body {
 }
 
 .item-active {
-  border-bottom: 2px solid;
   font-weight: bold;
 }
 

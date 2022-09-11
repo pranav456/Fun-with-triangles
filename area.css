@@ -24,7 +24,6 @@ body {
 }
 
 .item-active {
-  border-bottom: 2px solid;
   font-weight: bold;
 }
 
@@ -90,34 +89,3 @@ body {
   margin: 1rem auto;
   display: block;
 }
-
-/* .input-container {
-  margin: 1rem;
-  margin-left: 32rem;
-}
-
-.input-container input {
-  padding: 0.5rem;
-  font-size: 1rem;
-  width: 40%;
-  margin: 0.5rem 1rem 1rem 0;
-}
-
-#area-btn {
-  padding: 0.5rem;
-  background: burlywood;
-  color: var(--text-color);
-  border: 1px solid burlywood;
-  border-radius: 0.25rem;
-  width: 26%;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-  margin-left: 32rem;
-  margin-bottom: 1rem;
-}
-
-#output {
-  text-align: center;
-  font-weight: bold;
-} */
