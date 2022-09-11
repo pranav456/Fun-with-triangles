@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  background-color: brown;
+}
+
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.item-active {
+  border-bottom: 2px solid;
+  font-weight: bold;
+}
+
+.navigation {
+  background-color: burlywood;
+  color: rgb(153, 47, 47);
+  padding: 1rem;
+  /* border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem; */
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: rgb(156, 50, 50);
+}
